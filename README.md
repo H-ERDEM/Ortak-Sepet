@@ -1,66 +1,92 @@
-# 🛒 OrtakSepet — Akıllı Ortak Alışveriş ve Kargo Takip Platformu
+# 🛒 OrtakSepet
 
-OrtakSepet, kullanıcıların arkadaşları veya komşularıyla ortak alışveriş sepetleri oluşturarak kargo ve ürün maliyetlerini paylaşmalarını sağlayan, gelişmiş fiyat karşılaştırma/alarm robotları ve Gmail kargo entegrasyonu barındıran tam yığın (full-stack) bir web uygulamasıdır.
+> **Akıllı Ortak Alışveriş, Canlı Fiyat Takibi ve Otomatik Kargo/Stok Yönetim Platformu**
+
+[![Java](https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev/)
+
+OrtakSepet, bireysel alışverişlerdeki yüksek kargo ücretlerini ve koordinasyon zorluklarını ortadan kaldırmak amacıyla geliştirilmiş **birlikte alışveriş (imece)** platformudur. Kullanıcılar lokasyon bazlı alışveriş grupları kurabilir, gerçek zamanlı fiyat takip robotları ile bütçelerini optimize edebilir ve Google OAuth2/Gmail entegrasyonu sayesinde sipariş ve kargo süreçlerini tek bir merkezden izleyebilirler.
 
 ---
 
-## 🚀 Öne Çıkan Özellikler
+## ✨ Önemli Özellikler
 
-*   👥 **İmece Grupları (Ortak Sepetler):** Lokasyon bazlı gruplar kurun veya mevcut gruplara katılın. Grup üyeleriyle gerçek zamanlı mesajlaşın, ortak sepete ürün ekleyin ve liderin belirlediği IBAN üzerinden ödemeleri kolayca takip edin.
-*   🔍 **Gelişmiş Fiyat Karşılaştırma & Alarm:** Vatan, Amazon vb. e-ticaret sitelerinden canlı veri çekerek (Jsoup ve Playwright kullanarak) ürün fiyatlarını karşılaştırın. Hedeflediğiniz fiyat düştüğünde bildirim alın.
-*   📬 **Otomatik Gmail Kargo Takibi:** Google OAuth2 entegrasyonu sayesinde gelen kutunuz otomatik olarak taranır, kargo onay mailleri tespit edilerek kargo takip durumlarınız sisteme canlı işlenir.
-*   📦 **Stok ve Kritik Eşik Yönetimi:** Elinizdeki ürünlerin stok seviyelerini takip edin. Kritik eşiğin altına düşen ürünler için otomatik uyarılar alın.
-*   🛡️ **Admin Kontrol Paneli:** Kullanıcı yetkilendirmeleri, destek talepleri, sistem logları ve arka planda çalışan web kazıyıcı (scraper) servislerin durumunu anlık olarak denetleyin.
+### 👥 İmece Grupları (Sosyal Sepetler)
+*   **Lokasyon Bazlı Arama:** Çevrenizdeki açık sepet gruplarını arayın ve tek tuşla katılın.
+*   **Gerçek Zamanlı Sohbet:** Entegre grup içi mesajlaşma ile sepet detaylarını konuşun.
+*   **Birlikte Sepet Yönetimi:** Sepete ortaklaşa ürün ekleyin ve liderin IBAN ödeme durumunu takip edin.
+*   **Güven Puanı (Rating):** Kullanıcıların sepet güvenilirliğini değerlendirin.
+
+### 🔍 Akıllı Fiyat Karşılaştırma & Alarm Robotu
+*   **Çoklu Platform Taraması:** Amazon, Vatan vb. e-ticaret platformlarından Playwright ve Jsoup ile anlık fiyat verisi çeker.
+*   **Fiyat Alarmları:** Hedeflediğiniz fiyat seviyesine ulaşıldığında anında sistem bildirimi alırsınız.
+*   **Fiyat Geçmişi:** Ürünlerin fiyat değişim trendlerini görün.
+
+### 📬 Otomatik Gmail & Kargo Takibi
+*   **Gmail Tarayıcı:** Google OAuth2 ile Gmail gelen kutunuz taranarak kargo firmalarından gelen onay kodları ve durumları otomatik olarak sisteme aktarılır.
+*   **Canlı Durum Güncellemesi:** Kargo hareketlerini manuel takip etmenize gerek kalmaz.
+
+### 📦 Entegre Stok Takip Sistemi
+*   **Kritik Eşik Uyarıları:** Evinizde veya ofisinizde sık tüketilen ürünler için stok seviyesi tanımlayın.
+*   **Otomatik Eksik Listesi:** Kritik eşiğin altına düşen ürünleri doğrudan yeni bir alışveriş grubuna ekleyin.
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Frontend
-- React
-- Axios
-- CSS
-
-### Backend
-- Java 17
-- Spring Boot
-- Spring Security
-- OAuth2
-
-### Database
-- PostgreSQL
-- Hibernate
-- Spring Data JPA
-
-### Integrations
-- Gmail API
-- Google OAuth2
-- Playwright
-- Jsoup
+| Katman | Teknolojiler |
+| :--- | :--- |
+| **Frontend** | React (CRA), Axios, Vanilla CSS, Lucide React (İkonlar) |
+| **Backend** | Java 17, Spring Boot 4.0.x, Spring Security, OAuth2 Client, WebFlux / WebClient |
+| **Veritabanı** | PostgreSQL, Hibernate ORM, Spring Data JPA |
+| **Entegrasyonlar** | Google API Client, Gmail API (v1), Microsoft Playwright (Headless Web Scraping), Jsoup |
 
 ---
 
-## 💻 Kurulum ve Başlangıç
+## 📂 Dosya Yapısı
 
-### Prerequisities (Gereksinimler)
-*   Java 17 veya üzeri
-*   Node.js ve npm
-*   PostgreSQL veritabanı
+```
+Ortak-Sepet-Proje/
+├── backend/                  # Spring Boot Maven Projesi
+│   ├── src/main/java/        # Backend kaynak kodları (Controller, Service, Entity, DTO, vb.)
+│   └── src/main/resources/   # Uygulama ayarları (application.properties)
+├── frontend/                 # React SPA Projesi
+│   ├── src/components/       # Yeniden kullanılabilir React bileşenleri
+│   ├── src/pages/            # Sayfa bileşenleri (Dashboard, Alarmlar, Gruplar, vb.)
+│   └── src/styles/           # Özel CSS dosyaları
+└── ortak sepet resimleri/    # Proje ekran görüntüleri
+```
+
+---
+
+## ⚙️ Kurulum ve Yapılandırma
+
+### Gereksinimler
+- **Java JDK 17+**
+- **Node.js v18+**
+- **PostgreSQL 14+**
+- **Google Cloud Console Projesi** (Gmail API ve OAuth2 erişimi için)
 
 ### 1. Backend Kurulumu
 
-1. `backend/src/main/resources` klasörüne gidin.
-2. `application-local.properties.example` dosyasının bir kopyasını oluşturup adını `application-local.properties` yapın:
+> [!IMPORTANT]
+> Güvenlik nedeniyle hassas API anahtarlarınızı `application.properties` dosyasına eklemeyiniz. Bunun yerine `application-local.properties` profilini kullanınız.
+
+1. `backend/src/main/resources` dizinine gidin.
+2. Örnek dosyadan lokal ayarlar dosyanızı oluşturun:
    ```bash
    cp backend/src/main/resources/application-local.properties.example backend/src/main/resources/application-local.properties
    ```
-3. `application-local.properties` dosyasının içini kendi veritabanı şifreniz ve Google OAuth (Gmail) API kimlik bilgilerinizle doldurun:
+3. `application-local.properties` dosyasını kendi kimlik bilgilerinizle doldurun:
    ```properties
-   spring.datasource.password=LOKAL_POSTGRES_SIFRENIZ
+   spring.datasource.password=POSTGRES_VERITABANI_SIFRENIZ
    spring.security.oauth2.client.registration.google.client-id=GOOGLE_CLIENT_ID
    spring.security.oauth2.client.registration.google.client-secret=GOOGLE_CLIENT_SECRET
    ```
-4. Backend projesini ayağa kaldırın:
+4. Backend uygulamasını derleyin ve çalıştırın:
    ```bash
    cd backend
    ./mvnw spring-boot:run
@@ -68,19 +94,16 @@ OrtakSepet, kullanıcıların arkadaşları veya komşularıyla ortak alışveri
 
 ### 2. Frontend Kurulumu
 
-1. Frontend klasörüne gidin:
+1. `frontend` dizinine geçiş yapın ve bağımlılıkları kurun:
    ```bash
    cd frontend
-   ```
-2. Bağımlılıkları yükleyin:
-   ```bash
    npm install
    ```
-3. Uygulamayı başlatın:
+2. Uygulamayı yerel sunucuda başlatın:
    ```bash
    npm start
    ```
-   *Uygulama varsayılan olarak tarayıcınızda `http://localhost:3000` adresinde açılacaktır.*
+   *Uygulama `http://localhost:3000` adresinde çalışmaya başlayacaktır.*
 
 ---
 
@@ -100,6 +123,16 @@ OrtakSepet, kullanıcıların arkadaşları veya komşularıyla ortak alışveri
 
 ---
 
+## 🤝 Katkıda Bulunma
+
+1. Bu projeyi fork edin (`https://github.com/H-ERDEM/Ortak-Sepet/fork`).
+2. Kendi özelliğinizi içeren yeni bir dal (branch) açın: `git checkout -b feature/yeniozellik`.
+3. Değişikliklerinizi commitleyin: `git commit -m 'Yenilik: Yeni özellik eklendi'`.
+4. Dalı push edin: `git push origin feature/yeniozellik`.
+5. Bir Pull Request oluşturun.
+
+---
+
 ## 📝 Lisans
 
-Bu proje eğitim ve kişisel gelişim amacıyla geliştirilmiştir. Ticari amaçla kullanımı önerilmez.
+Bu proje **MIT Lisansı** altında lisanslanmıştır. Detaylar için lisans dosyasına göz atabilirsiniz.

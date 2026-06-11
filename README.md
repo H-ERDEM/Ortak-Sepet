@@ -98,6 +98,28 @@ Fiyatı takip edilen ürünler ve imece usulü ortaklaşa oluşturulan alışver
 
 ---
 
+## 📸 Uygulama Ekran Görüntüleri
+
+<table align="center">
+  <tr>
+    <td align="center"><img src="ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.24.26.png" width="250"/><br/><b>Giriş / Kayıt Ekranı</b></td>
+    <td align="center"><img src="ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.24.33.png" width="250"/><br/><b>Ana Sayfa / Dashboard</b></td>
+    <td align="center"><img src="ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.24.56.png" width="250"/><br/><b>İmece Grupları</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.02.png" width="250"/><br/><b>Grup Detayı</b></td>
+    <td align="center"><img src="ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.13.png" width="250"/><br/><b>Grup Sohbeti & Alışveriş Listesi</b></td>
+    <td align="center"><img src="ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.28.png" width="250"/><br/><b>Fiyat Karşılaştırma & Arama</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.34.png" width="250"/><br/><b>Fiyat Alarmları</b></td>
+    <td align="center"><img src="ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.43.png" width="250"/><br/><b>Kargo Takibi</b></td>
+    <td align="center"><img src="ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.50.png" width="250"/><br/><b>Stok Takibi & Yönetimi</b></td>
+  </tr>
+</table>
+
+---
+
 ## 📝 Lisans
 
 Bu proje eğitim ve kişisel gelişim amacıyla geliştirilmiştir. Ticari amaçla kullanımı önerilmez.

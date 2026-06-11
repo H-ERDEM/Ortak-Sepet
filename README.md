@@ -76,6 +76,22 @@ OrtakSepet, kullanıcıların arkadaşları veya komşularıyla ortak alışveri
 
 ---
 
+## 📸 Uygulama Ekran Görüntüleri
+
+| Giriş / Kayıt Ekranı | Ana Sayfa / Dashboard | Aktif İmece Grupları Listesi |
+| :---: | :---: | :---: |
+| ![Giriş / Kayıt Ekranı](ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.24.26.png) | ![Ana Sayfa / Dashboard](ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.24.33.png) | ![Aktif İmece Grupları Listesi](ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.24.56.png) |
+
+| İmece Grup Detayı | Grup İçi Sohbet ve Ortak Sepet | Fiyat Karşılaştırma & Arama |
+| :---: | :---: | :---: |
+| ![İmece Grup Detayı](ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.02.png) | ![Grup İçi Sohbet ve Ortak Sepet](ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.13.png) | ![Fiyat Karşılaştırma & Arama](ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.28.png) |
+
+| Fiyat Alarmları Listesi | Kargo Takip Ekranı | Stok Takip Sayfası |
+| :---: | :---: | :---: |
+| ![Fiyat Alarmları Listesi](ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.34.png) | ![Kargo Takip Ekranı](ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.43.png) | ![Stok Takip Sayfası](ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.50.png) |
+
+---
+
 ## 📝 Lisans
 
 Bu proje eğitim ve kişisel gelişim amacıyla geliştirilmiştir. Ticari amaçla kullanımı önerilmez.

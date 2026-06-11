@@ -1,0 +1,9 @@
+# Local development database credentials (replace with your local postgres password)
+spring.datasource.password=YOUR_DB_PASSWORD
+
+# Google OAuth2 Credentials (replace with your Google Client ID and Secret)
+spring.security.oauth2.client.registration.google.client-id=YOUR_GOOGLE_CLIENT_ID
+spring.security.oauth2.client.registration.google.client-secret=YOUR_GOOGLE_CLIENT_SECRET
+
+# SerpApi API Key (Optional: replace with your SerpApi key if searching prices)
+# serpapi.api.key=YOUR_SERPAPI_API_KEY

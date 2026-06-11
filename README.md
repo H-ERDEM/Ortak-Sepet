@@ -2,10 +2,6 @@
 
 OrtakSepet, kullanıcıların arkadaşları veya komşularıyla ortak alışveriş sepetleri oluşturarak kargo ve ürün maliyetlerini paylaşmalarını sağlayan, gelişmiş fiyat karşılaştırma/alarm robotları ve Gmail kargo entegrasyonu barındıran tam yığın (full-stack) bir web uygulamasıdır.
 
-<div align="center">
-  <img src="frontend/src/assets/illustrations/auth-community-shopping.svg" width="400" alt="Ortak Alışveriş"/>
-</div>
-
 ---
 
 ## 🚀 Öne Çıkan Özellikler
@@ -15,24 +11,6 @@ OrtakSepet, kullanıcıların arkadaşları veya komşularıyla ortak alışveri
 *   📬 **Otomatik Gmail Kargo Takibi:** Google OAuth2 entegrasyonu sayesinde gelen kutunuz otomatik olarak taranır, kargo onay mailleri tespit edilerek kargo takip durumlarınız sisteme canlı işlenir.
 *   📦 **Stok ve Kritik Eşik Yönetimi:** Elinizdeki ürünlerin stok seviyelerini takip edin. Kritik eşiğin altına düşen ürünler için otomatik uyarılar alın.
 *   🛡️ **Admin Kontrol Paneli:** Kullanıcı yetkilendirmeleri, destek talepleri, sistem logları ve arka planda çalışan web kazıyıcı (scraper) servislerin durumunu anlık olarak denetleyin.
-
----
-
-## 🎨 Görseller & İllüstrasyonlar
-
-### Kontrol Paneli (Dashboard)
-Kontrol panelinde aktif siparişleriniz, fiyat alarmlarınız, kritik stoklarınız ve yaklaşan kargolarınız özetlenir.
-<div align="center">
-  <img src="frontend/src/assets/illustrations/dashboard-savings.svg" width="350" alt="Kontrol Paneli"/>
-</div>
-
-### Alarmlar ve Grup Yönetimi
-Fiyatı takip edilen ürünler ve imece usulü ortaklaşa oluşturulan alışveriş grupları.
-<div align="center">
-  <img src="frontend/src/assets/illustrations/empty-alarms.svg" width="180" alt="Fiyat Alarmları"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="frontend/src/assets/illustrations/empty-groups.svg" width="180" alt="İmece Grupları"/>
-</div>
 
 ---
 
@@ -95,28 +73,6 @@ Fiyatı takip edilen ürünler ve imece usulü ortaklaşa oluşturulan alışver
    npm start
    ```
    *Uygulama varsayılan olarak tarayıcınızda `http://localhost:3000` adresinde açılacaktır.*
-
----
-
-## 📸 Uygulama Ekran Görüntüleri
-
-<table align="center">
-  <tr>
-    <td align="center"><img src="ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.24.26.png" width="250"/><br/><b>Giriş / Kayıt Ekranı</b></td>
-    <td align="center"><img src="ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.24.33.png" width="250"/><br/><b>Ana Sayfa / Dashboard</b></td>
-    <td align="center"><img src="ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.24.56.png" width="250"/><br/><b>İmece Grupları</b></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.02.png" width="250"/><br/><b>Grup Detayı</b></td>
-    <td align="center"><img src="ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.13.png" width="250"/><br/><b>Grup Sohbeti & Alışveriş Listesi</b></td>
-    <td align="center"><img src="ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.28.png" width="250"/><br/><b>Fiyat Karşılaştırma & Arama</b></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.34.png" width="250"/><br/><b>Fiyat Alarmları</b></td>
-    <td align="center"><img src="ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.43.png" width="250"/><br/><b>Kargo Takibi</b></td>
-    <td align="center"><img src="ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.50.png" width="250"/><br/><b>Stok Takibi & Yönetimi</b></td>
-  </tr>
-</table>
 
 ---
 

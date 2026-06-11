@@ -36,28 +36,6 @@ Fiyatı takip edilen ürünler ve imece usulü ortaklaşa oluşturulan alışver
 
 ---
 
-## ⚙️ Sistem Mimarisi
-
-Aşağıdaki diyagramda kullanıcıların, frontend katmanının, Spring Boot backend servislerinin, veri kazıyıcı (Playwright/Jsoup) motorunun ve Gmail API entegrasyonunun nasıl çalıştığını görebilirsiniz:
-
-```mermaid
-graph TD
-    User[Kullanıcı Tarayıcısı / React] -->|HTTPS Requests| Controller[Spring Boot Controllers]
-    Controller -->|Authentication & OAuth2| Security[Spring Security & Google Auth]
-    Controller -->|Database Operations| JPA[Spring Data JPA]
-    JPA -->|Read/Write| DB[(PostgreSQL)]
-    
-    subgraph Arka Plan Servisleri (Background Services)
-        Scheduler[Price Alarm Scheduler] -->|Triggers Scrapers| Playwright[Playwright / Jsoup Scraper]
-        GmailSync[Gmail Live Tracker] -->|OAuth2 Read API| Gmail[Google Gmail API]
-    end
-
-    Playwright -->|Fetches Live Prices| ECommerce[E-Commerce Sites]
-    GmailSync -->|Fetches Delivery Emails| Controller
-```
-
----
-
 ## 🛠️ Kullanılan Teknolojiler
 
 ### Backend

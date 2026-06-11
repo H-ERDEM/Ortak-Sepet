@@ -14,21 +14,29 @@ OrtakSepet, kullanıcıların arkadaşları veya komşularıyla ortak alışveri
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler
-
-### Backend
-*   **Dil ve Framework:** Java 17, Spring Boot 4.0.6 (Spring WebMVC, WebFlux, Spring Security)
-*   **Kimlik Doğrulama:** Spring Security, OAuth2 Client
-*   **Web Scraper / Kazıyıcılar:** Microsoft Playwright 1.44.0, Jsoup 1.17.2
-*   **E-Posta Entegrasyonu:** Google API Client, Gmail API (v1-rev20220404)
-*   **Veritabanı ve ORM:** PostgreSQL, Spring Data JPA, Hibernate
-*   **Yardımcı Araç:** Lombok
+## 🛠️ Tech Stack
 
 ### Frontend
-*   **Kütüphane:** React (Create React App)
-*   **Tasarım & Stil:** Vanilla CSS (Özel HSL renk paletleri, Dark Mode ve premium mikro-animasyonlar)
-*   **İkonlar:** Lucide React
-*   **İletişim:** Axios
+- React
+- Axios
+- CSS
+
+### Backend
+- Java 17
+- Spring Boot
+- Spring Security
+- OAuth2
+
+### Database
+- PostgreSQL
+- Hibernate
+- Spring Data JPA
+
+### Integrations
+- Gmail API
+- Google OAuth2
+- Playwright
+- Jsoup
 
 ---
 

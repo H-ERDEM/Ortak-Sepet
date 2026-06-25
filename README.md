@@ -115,7 +115,7 @@ Ortak-Sepet-Proje/
 
 | İmece Grup Detayı | Grup İçi Sohbet ve Ortak Sepet | Fiyat Karşılaştırma & Arama |
 | :---: | :---: | :---: |
-| ![İmece Grup Detayı](ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.02.png) | ![Grup İçi Sohbet ve Ortak Sepet](ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.13.png) | ![Fiyat Karşılaştırma & Arama]([ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.28.png]([ortak sepet resimleri/Screenshot 2026-05-23 at 10.47.11.png][(https://github.com/H-ERDEM/Ortak-Sepet/blob/c4c7993c35663bfcd13fc022d15254cc51dd400b/ortak%20sepet%20resimleri/Screenshot%202026-05-23%20at%2010.47.11.png)]) |
+| ![İmece Grup Detayı](ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.02.png) | ![Grup İçi Sohbet ve Ortak Sepet](ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.13.png) | ![Fiyat Karşılaştırma & Arama]([ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.28.png](ortak%20sepet%20resimleri/Screenshot%202026-06-11%20at%2018.25.28.png)  |
 
 | Fiyat Alarmları Listesi | Kargo Takip Ekranı | Stok Takip Sayfası |
 | :---: | :---: | :---: |
